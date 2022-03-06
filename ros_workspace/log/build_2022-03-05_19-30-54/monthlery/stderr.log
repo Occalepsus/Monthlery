@@ -1,0 +1,8 @@
+[01m[K/home/julien/Documents/Intech/Monthléry/ros_workspace/monthlery/src/monthlery.cpp:2:10:[m[K [01;31m[Kfatal error: [m[KSerialPort.cpp: Aucun fichier ou dossier de ce type
+    2 | #include [01;31m[K"SerialPort.cpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/monthlery.dir/build.make:63 : CMakeFiles/monthlery.dir/src/monthlery.cpp.o] Erreur 1
+make[2]: *** Attente des tâches non terminées....
+make[1]: *** [CMakeFiles/Makefile2:78 : CMakeFiles/monthlery.dir/all] Erreur 2
+make: *** [Makefile:141 : all] Erreur 2

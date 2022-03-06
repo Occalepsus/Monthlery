@@ -1,0 +1,16 @@
+[0.021s] Invoking command in '/home/julien/Documents/Intech/Monthléry/ros_workspace/build/monthlery': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/julien/Documents/Intech/Monthléry/ros_workspace/build/monthlery -- -j12 -l12
+[0.067s] [35m[1mScanning dependencies of target monthlery[0m
+[0.079s] [ 33%] [32mBuilding CXX object CMakeFiles/monthlery.dir/src/monthlery.cpp.o[0m
+[0.298s] [01m[K/home/julien/Documents/Intech/Monthléry/ros_workspace/monthlery/src/monthlery.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[0.298s] [01m[K/home/julien/Documents/Intech/Monthléry/ros_workspace/monthlery/src/monthlery.cpp:27:19:[m[K [01;31m[Kerror: [m[K‘[01m[KSerialPort[m[K’ was not declared in this scope; did you mean ‘[01m[Kscom::SerialPort[m[K’?
+[0.298s]    27 |     auto serial = [01;31m[KSerialPort[m[K("/dev/acm0");
+[0.298s]       |                   [01;31m[K^~~~~~~~~~[m[K
+[0.298s]       |                   [32m[Kscom::SerialPort[m[K
+[0.299s] In file included from [01m[K/home/julien/Documents/Intech/Monthléry/ros_workspace/monthlery/src/monthlery.cpp:2[m[K:
+[0.299s] [01m[K/home/julien/Documents/Intech/Monthléry/ros_workspace/monthlery/src/serial/SerialPort.hpp:38:11:[m[K [01;36m[Knote: [m[K‘[01m[Kscom::SerialPort[m[K’ declared here
+[0.299s]    38 |     class [01;36m[KSerialPort[m[K {
+[0.299s]       |           [01;36m[K^~~~~~~~~~[m[K
+[0.357s] make[2]: *** [CMakeFiles/monthlery.dir/build.make:63 : CMakeFiles/monthlery.dir/src/monthlery.cpp.o] Erreur 1
+[0.358s] make[1]: *** [CMakeFiles/Makefile2:78 : CMakeFiles/monthlery.dir/all] Erreur 2
+[0.358s] make: *** [Makefile:141 : all] Erreur 2
+[0.360s] Invoked command in '/home/julien/Documents/Intech/Monthléry/ros_workspace/build/monthlery' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/julien/Documents/Intech/Monthléry/ros_workspace/build/monthlery -- -j12 -l12

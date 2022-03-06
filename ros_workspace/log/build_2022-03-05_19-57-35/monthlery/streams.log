@@ -1,0 +1,31 @@
+[0.028s] Invoking command in '/home/julien/Documents/Intech/Monthléry/ros_workspace/build/monthlery': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/julien/Documents/Intech/Monthléry/ros_workspace/build/monthlery -- -j12 -l12
+[0.070s] [35m[1mScanning dependencies of target monthlery[0m
+[0.084s] [ 50%] [32mBuilding CXX object CMakeFiles/monthlery.dir/src/controller/controllerSetup.cpp.o[0m
+[0.084s] [ 50%] [32mBuilding CXX object CMakeFiles/monthlery.dir/src/monthlery.cpp.o[0m
+[0.300s] [01m[K/home/julien/Documents/Intech/Monthléry/ros_workspace/monthlery/src/controller/controllerSetup.cpp:[m[K In member function ‘[01m[Kvoid ControllerSetup::run(bool)[m[K’:
+[0.300s] [01m[K/home/julien/Documents/Intech/Monthléry/ros_workspace/monthlery/src/controller/controllerSetup.cpp:30:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcout[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::cout[m[K’?
+[0.301s]    30 |         [01;31m[Kcout[m[K << "hey" << endl;
+[0.301s]       |         [01;31m[K^~~~[m[K
+[0.301s]       |         [32m[Kstd::cout[m[K
+[0.301s] In file included from [01m[K/home/julien/Documents/Intech/Monthléry/ros_workspace/monthlery/src/controller/joystick/joystick.hpp:19[m[K,
+[0.301s]                  from [01m[K/home/julien/Documents/Intech/Monthléry/ros_workspace/monthlery/src/controller/joystick/joystick.cpp:15[m[K,
+[0.301s]                  from [01m[K/home/julien/Documents/Intech/Monthléry/ros_workspace/monthlery/src/controller/controllerSetup.cpp:1[m[K:
+[0.301s] [01m[K/usr/include/c++/9/iostream:61:18:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::cout[m[K’ declared here
+[0.301s]    61 |   extern ostream [01;36m[Kcout[m[K;  /// Linked to standard output
+[0.301s]       |                  [01;36m[K^~~~[m[K
+[0.302s] [01m[K/home/julien/Documents/Intech/Monthléry/ros_workspace/monthlery/src/controller/controllerSetup.cpp:30:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kendl[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::endl[m[K’?
+[0.302s]    30 |         cout << "hey" << [01;31m[Kendl[m[K;
+[0.302s]       |                          [01;31m[K^~~~[m[K
+[0.302s]       |                          [32m[Kstd::endl[m[K
+[0.302s] In file included from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[0.302s]                  from [01m[K/home/julien/Documents/Intech/Monthléry/ros_workspace/monthlery/src/controller/joystick/joystick.hpp:19[m[K,
+[0.302s]                  from [01m[K/home/julien/Documents/Intech/Monthléry/ros_workspace/monthlery/src/controller/joystick/joystick.cpp:15[m[K,
+[0.302s]                  from [01m[K/home/julien/Documents/Intech/Monthléry/ros_workspace/monthlery/src/controller/controllerSetup.cpp:1[m[K:
+[0.302s] [01m[K/usr/include/c++/9/ostream:599:5:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::endl[m[K’ declared here
+[0.302s]   599 |     [01;36m[Kendl[m[K(basic_ostream<_CharT, _Traits>& __os)
+[0.302s]       |     [01;36m[K^~~~[m[K
+[0.345s] make[2]: *** [CMakeFiles/monthlery.dir/build.make:89 : CMakeFiles/monthlery.dir/src/controller/controllerSetup.cpp.o] Erreur 1
+[0.345s] make[2]: *** Attente des tâches non terminées....
+[0.445s] make[1]: *** [CMakeFiles/Makefile2:78 : CMakeFiles/monthlery.dir/all] Erreur 2
+[0.445s] make: *** [Makefile:141 : all] Erreur 2
+[0.447s] Invoked command in '/home/julien/Documents/Intech/Monthléry/ros_workspace/build/monthlery' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/julien/Documents/Intech/Monthléry/ros_workspace/build/monthlery -- -j12 -l12

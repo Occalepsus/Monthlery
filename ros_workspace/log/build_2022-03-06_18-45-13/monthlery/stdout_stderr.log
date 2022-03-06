@@ -1,0 +1,11 @@
+[35m[1mScanning dependencies of target monthlery[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/monthlery.dir/src/monthlery.cpp.o[0m
+[01m[K/home/julien/Documents/Intech/Monthléry/ros_workspace/monthlery/src/monthlery.cpp:[m[K In lambda function:
+[01m[K/home/julien/Documents/Intech/Monthléry/ros_workspace/monthlery/src/monthlery.cpp:30:35:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kconst char [13][m[K’ and ‘[01m[Kconst char [24][m[K’ to binary ‘[01m[Koperator<<[m[K’
+   30 |             system([32m[K"sudo ./shell"[m[K [01;31m[K<<[m[K [34m[K"/dev/ttyACM0 rotate +15"[m[K);
+      |                    [32m[K~~~~~~~~~~~~~~[m[K [01;31m[K^~[m[K [34m[K~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                    [32m[K|[m[K                 [34m[K|[m[K
+      |                    [32m[Kconst char [13][m[K   [34m[Kconst char [24][m[K
+make[2]: *** [CMakeFiles/monthlery.dir/build.make:63 : CMakeFiles/monthlery.dir/src/monthlery.cpp.o] Erreur 1
+make[1]: *** [CMakeFiles/Makefile2:78 : CMakeFiles/monthlery.dir/all] Erreur 2
+make: *** [Makefile:141 : all] Erreur 2

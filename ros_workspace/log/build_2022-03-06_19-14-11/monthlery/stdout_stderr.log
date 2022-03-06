@@ -1,0 +1,29 @@
+[35m[1mScanning dependencies of target monthlery[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/monthlery.dir/src/monthlery.cpp.o[0m
+[01m[K/home/julien/Documents/Intech/Monthléry/ros_workspace/monthlery/src/monthlery.cpp:[m[K In function ‘[01m[Kvoid callShell(std::string, int)[m[K’:
+[01m[K/home/julien/Documents/Intech/Monthléry/ros_workspace/monthlery/src/monthlery.cpp:26:23:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Korder[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   26 | void callShell([01;35m[Kstring order[m[K, int ticks)
+      |                [01;35m[K~~~~~~~^~~~~[m[K
+[01m[K/home/julien/Documents/Intech/Monthléry/ros_workspace/monthlery/src/monthlery.cpp:26:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kticks[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   26 | void callShell(string order, [01;35m[Kint ticks[m[K)
+      |                              [01;35m[K~~~~^~~~~[m[K
+[ 66%] [32m[1mLinking CXX executable monthlery[0m
+[100%] Built target monthlery
+-- Install configuration: ""
+-- Installing: /home/julien/Documents/Intech/Monthléry/ros_workspace/install/monthlery/lib/monthlery/monthlery
+-- Set runtime path of "/home/julien/Documents/Intech/Monthléry/ros_workspace/install/monthlery/lib/monthlery/monthlery" to ""
+-- Up-to-date: /home/julien/Documents/Intech/Monthléry/ros_workspace/install/monthlery/share/ament_index/resource_index/package_run_dependencies/monthlery
+-- Up-to-date: /home/julien/Documents/Intech/Monthléry/ros_workspace/install/monthlery/share/ament_index/resource_index/parent_prefix_path/monthlery
+-- Up-to-date: /home/julien/Documents/Intech/Monthléry/ros_workspace/install/monthlery/share/monthlery/environment/ament_prefix_path.sh
+-- Up-to-date: /home/julien/Documents/Intech/Monthléry/ros_workspace/install/monthlery/share/monthlery/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/julien/Documents/Intech/Monthléry/ros_workspace/install/monthlery/share/monthlery/environment/path.sh
+-- Up-to-date: /home/julien/Documents/Intech/Monthléry/ros_workspace/install/monthlery/share/monthlery/environment/path.dsv
+-- Up-to-date: /home/julien/Documents/Intech/Monthléry/ros_workspace/install/monthlery/share/monthlery/local_setup.bash
+-- Up-to-date: /home/julien/Documents/Intech/Monthléry/ros_workspace/install/monthlery/share/monthlery/local_setup.sh
+-- Up-to-date: /home/julien/Documents/Intech/Monthléry/ros_workspace/install/monthlery/share/monthlery/local_setup.zsh
+-- Up-to-date: /home/julien/Documents/Intech/Monthléry/ros_workspace/install/monthlery/share/monthlery/local_setup.dsv
+-- Installing: /home/julien/Documents/Intech/Monthléry/ros_workspace/install/monthlery/share/monthlery/package.dsv
+-- Up-to-date: /home/julien/Documents/Intech/Monthléry/ros_workspace/install/monthlery/share/ament_index/resource_index/packages/monthlery
+-- Up-to-date: /home/julien/Documents/Intech/Monthléry/ros_workspace/install/monthlery/share/monthlery/cmake/monthleryConfig.cmake
+-- Up-to-date: /home/julien/Documents/Intech/Monthléry/ros_workspace/install/monthlery/share/monthlery/cmake/monthleryConfig-version.cmake
+-- Up-to-date: /home/julien/Documents/Intech/Monthléry/ros_workspace/install/monthlery/share/monthlery/package.xml

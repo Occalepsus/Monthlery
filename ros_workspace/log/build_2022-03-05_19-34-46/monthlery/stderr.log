@@ -1,0 +1,9 @@
+/usr/bin/ld : CMakeFiles/monthlery.dir/src/monthlery.cpp.o : dans la fonction « main » :
+monthlery.cpp:(.text+0x6b6) : référence indéfinie vers « ControllerSetup::ControllerSetup(Binder) »
+/usr/bin/ld : monthlery.cpp:(.text+0x6d9) : référence indéfinie vers « ControllerSetup::run(bool) »
+/usr/bin/ld : CMakeFiles/monthlery.dir/src/monthlery.cpp.o : dans la fonction « ControllerSetup::~ControllerSetup() » :
+monthlery.cpp:(.text._ZN15ControllerSetupD2Ev[_ZN15ControllerSetupD5Ev]+0x28) : référence indéfinie vers « Joystick::~Joystick() »
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/monthlery.dir/build.make:146 : monthlery] Erreur 1
+make[1]: *** [CMakeFiles/Makefile2:78 : CMakeFiles/monthlery.dir/all] Erreur 2
+make: *** [Makefile:141 : all] Erreur 2

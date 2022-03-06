@@ -1,0 +1,14 @@
+[0.020s] Invoking command in '/home/julien/Documents/Intech/Monthléry/ros_workspace/build/monthlery': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/julien/Documents/Intech/Monthléry/ros_workspace/build/monthlery -- -j12 -l12
+[0.062s] [35m[1mScanning dependencies of target monthlery[0m
+[0.076s] [ 33%] [32mBuilding CXX object CMakeFiles/monthlery.dir/src/monthlery.cpp.o[0m
+[0.449s] [ 66%] [32m[1mLinking CXX executable monthlery[0m
+[0.524s] /usr/bin/ld : CMakeFiles/monthlery.dir/src/monthlery.cpp.o : dans la fonction « main » :
+[0.525s] monthlery.cpp:(.text+0x6b6) : référence indéfinie vers « ControllerSetup::ControllerSetup(Binder) »
+[0.525s] /usr/bin/ld : monthlery.cpp:(.text+0x6d9) : référence indéfinie vers « ControllerSetup::run(bool) »
+[0.525s] /usr/bin/ld : CMakeFiles/monthlery.dir/src/monthlery.cpp.o : dans la fonction « ControllerSetup::~ControllerSetup() » :
+[0.525s] monthlery.cpp:(.text._ZN15ControllerSetupD2Ev[_ZN15ControllerSetupD5Ev]+0x28) : référence indéfinie vers « Joystick::~Joystick() »
+[0.525s] collect2: error: ld returned 1 exit status
+[0.526s] make[2]: *** [CMakeFiles/monthlery.dir/build.make:146 : monthlery] Erreur 1
+[0.526s] make[1]: *** [CMakeFiles/Makefile2:78 : CMakeFiles/monthlery.dir/all] Erreur 2
+[0.526s] make: *** [Makefile:141 : all] Erreur 2
+[0.528s] Invoked command in '/home/julien/Documents/Intech/Monthléry/ros_workspace/build/monthlery' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/julien/Documents/Intech/Monthléry/ros_workspace/build/monthlery -- -j12 -l12

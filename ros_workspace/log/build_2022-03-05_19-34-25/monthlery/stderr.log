@@ -1,0 +1,12 @@
+[01m[K/home/julien/Documents/Intech/Monthléry/ros_workspace/monthlery/src/monthlery.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[K/home/julien/Documents/Intech/Monthléry/ros_workspace/monthlery/src/monthlery.cpp:27:19:[m[K [01;31m[Kerror: [m[K‘[01m[KSerialPort[m[K’ was not declared in this scope; did you mean ‘[01m[Kscom::SerialPort[m[K’?
+   27 |     auto serial = [01;31m[KSerialPort[m[K("/dev/acm0");
+      |                   [01;31m[K^~~~~~~~~~[m[K
+      |                   [32m[Kscom::SerialPort[m[K
+In file included from [01m[K/home/julien/Documents/Intech/Monthléry/ros_workspace/monthlery/src/monthlery.cpp:2[m[K:
+[01m[K/home/julien/Documents/Intech/Monthléry/ros_workspace/monthlery/src/serial/SerialPort.hpp:38:11:[m[K [01;36m[Knote: [m[K‘[01m[Kscom::SerialPort[m[K’ declared here
+   38 |     class [01;36m[KSerialPort[m[K {
+      |           [01;36m[K^~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/monthlery.dir/build.make:63 : CMakeFiles/monthlery.dir/src/monthlery.cpp.o] Erreur 1
+make[1]: *** [CMakeFiles/Makefile2:78 : CMakeFiles/monthlery.dir/all] Erreur 2
+make: *** [Makefile:141 : all] Erreur 2

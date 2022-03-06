@@ -1,0 +1,13 @@
+[0.029s] Invoking command in '/home/julien/Documents/Intech/Monthléry/ros_workspace/build/monthlery': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/julien/Documents/Intech/Monthléry/ros_workspace/build/monthlery -- -j12 -l12
+[0.076s] [35m[1mScanning dependencies of target monthlery[0m
+[0.088s] [ 33%] [32mBuilding CXX object CMakeFiles/monthlery.dir/src/monthlery.cpp.o[0m
+[0.285s] [01m[K/home/julien/Documents/Intech/Monthléry/ros_workspace/monthlery/src/monthlery.cpp:[m[K In lambda function:
+[0.286s] [01m[K/home/julien/Documents/Intech/Monthléry/ros_workspace/monthlery/src/monthlery.cpp:30:35:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kconst char [13][m[K’ and ‘[01m[Kconst char [24][m[K’ to binary ‘[01m[Koperator<<[m[K’
+[0.286s]    30 |             system([32m[K"sudo ./shell"[m[K [01;31m[K<<[m[K [34m[K"/dev/ttyACM0 rotate +15"[m[K);
+[0.286s]       |                    [32m[K~~~~~~~~~~~~~~[m[K [01;31m[K^~[m[K [34m[K~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.286s]       |                    [32m[K|[m[K                 [34m[K|[m[K
+[0.286s]       |                    [32m[Kconst char [13][m[K   [34m[Kconst char [24][m[K
+[0.328s] make[2]: *** [CMakeFiles/monthlery.dir/build.make:63 : CMakeFiles/monthlery.dir/src/monthlery.cpp.o] Erreur 1
+[0.329s] make[1]: *** [CMakeFiles/Makefile2:78 : CMakeFiles/monthlery.dir/all] Erreur 2
+[0.329s] make: *** [Makefile:141 : all] Erreur 2
+[0.331s] Invoked command in '/home/julien/Documents/Intech/Monthléry/ros_workspace/build/monthlery' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/julien/Documents/Intech/Monthléry/ros_workspace/build/monthlery -- -j12 -l12

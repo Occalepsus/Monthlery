@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/julien/Documents/Intech/Monthléry/ros_workspace/monthlery/src/controller/controllerSetup.hpp
+joystick/joystick.hpp
+/home/julien/Documents/Intech/Monthléry/ros_workspace/monthlery/src/controller/joystick/joystick.hpp
+array
+-
+functional
+-
+unistd.h
+-
+
+/home/julien/Documents/Intech/Monthléry/ros_workspace/monthlery/src/controller/joystick/joystick.hpp
+string
+-
+iostream
+-
+
+/home/julien/Documents/Intech/Monthléry/ros_workspace/monthlery/src/monthlery.cpp
+controller/controllerSetup.hpp
+/home/julien/Documents/Intech/Monthléry/ros_workspace/monthlery/src/controller/controllerSetup.hpp
+iostream
+-
+string
+-
+

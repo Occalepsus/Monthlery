@@ -1,0 +1,4 @@
+source;share/monthlery/local_setup.bash
+source;share/monthlery/local_setup.dsv
+source;share/monthlery/local_setup.sh
+source;share/monthlery/local_setup.zsh

@@ -1,0 +1,84 @@
+[0.020s] Invoking command in '/home/julien/Documents/Intech/Monthléry/ros_workspace/build/monthlery': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/julien/Documents/Intech/Monthléry/ros_workspace/build/monthlery -- -j12 -l12
+[0.048s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.070s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.236s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.260s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.262s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.357s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.394s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.395s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.507s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.574s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.575s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.575s] -- Configured cppcheck include dirs: 
+[0.575s] -- Configured cppcheck exclude dirs and/or files: 
+[0.576s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.576s] -- Configured cpplint exclude dirs and/or files: 
+[0.576s] -- Added test 'lint_cmake' to check CMake code style
+[0.577s] -- Added test 'uncrustify' to check C / C++ code style
+[0.577s] -- Configured uncrustify additional arguments: 
+[0.577s] -- Added test 'xmllint' to check XML markup files
+[0.579s] -- Configuring done
+[0.586s] -- Generating done
+[0.587s] -- Build files have been written to: /home/julien/Documents/Intech/Monthléry/ros_workspace/build/monthlery
+[0.613s] [35m[1mScanning dependencies of target monthlery[0m
+[0.623s] [ 33%] [32mBuilding CXX object CMakeFiles/monthlery.dir/src/monthlery.cpp.o[0m
+[0.897s] [01m[K/home/julien/Documents/Intech/Monthléry/ros_workspace/monthlery/src/monthlery.cpp:[m[K In lambda function:
+[0.898s] [01m[K/home/julien/Documents/Intech/Monthléry/ros_workspace/monthlery/src/monthlery.cpp:36:31:[m[K [01;35m[Kwarning: [m[Kunsigned conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’} changes value from ‘[01m[K5354[m[K’ to ‘[01m[K234[m[K’ [[01;35m[K-Woverflow[m[K]
+[0.898s]    36 |             serial.write_word([01;35m[K5354[m[K, 1);
+[0.898s]       |                               [01;35m[K^~~~[m[K
+[0.906s] [01m[K/home/julien/Documents/Intech/Monthléry/ros_workspace/monthlery/src/monthlery.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[0.906s] [01m[K/home/julien/Documents/Intech/Monthléry/ros_workspace/monthlery/src/monthlery.cpp:25:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.907s]    25 | int main([01;35m[Kint argc[m[K, char **argv)
+[0.907s]       |          [01;35m[K~~~~^~~~[m[K
+[0.907s] [01m[K/home/julien/Documents/Intech/Monthléry/ros_workspace/monthlery/src/monthlery.cpp:25:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.908s]    25 | int main(int argc, [01;35m[Kchar **argv[m[K)
+[0.908s]       |                    [01;35m[K~~~~~~~^~~~[m[K
+[1.115s] [ 66%] [32m[1mLinking CXX executable monthlery[0m
+[1.193s] /usr/bin/ld : CMakeFiles/monthlery.dir/src/serial/SerialPort.cpp.o:(.data+0x0) : définitions multiples de « scom::control_mode_bytes »; CMakeFiles/monthlery.dir/src/monthlery.cpp.o:(.data+0x0) : défini pour la première fois ici
+[1.194s] /usr/bin/ld : CMakeFiles/monthlery.dir/src/serial/SerialPort.cpp.o:(.data+0x20) : définitions multiples de « scom::local_modes_bytes »; CMakeFiles/monthlery.dir/src/monthlery.cpp.o:(.data+0x20) : défini pour la première fois ici
+[1.194s] /usr/bin/ld : CMakeFiles/monthlery.dir/src/serial/SerialPort.cpp.o:(.data+0x40) : définitions multiples de « scom::input_modes_bytes »; CMakeFiles/monthlery.dir/src/monthlery.cpp.o:(.data+0x40) : défini pour la première fois ici
+[1.194s] /usr/bin/ld : CMakeFiles/monthlery.dir/src/serial/SerialPort.cpp.o:(.data+0x68) : définitions multiples de « scom::output_modes_bytes »; CMakeFiles/monthlery.dir/src/monthlery.cpp.o:(.data+0x68) : défini pour la première fois ici
+[1.195s] /usr/bin/ld : CMakeFiles/monthlery.dir/src/serial/SerialPort.cpp.o : dans la fonction « scom::SerialPort::SerialPort(char const*) » :
+[1.195s] SerialPort.cpp:(.text+0x0) : définitions multiples de « scom::SerialPort::SerialPort(char const*) »; CMakeFiles/monthlery.dir/src/monthlery.cpp.o:monthlery.cpp:(.text+0x844) : défini pour la première fois ici
+[1.195s] /usr/bin/ld : CMakeFiles/monthlery.dir/src/serial/SerialPort.cpp.o : dans la fonction « scom::SerialPort::SerialPort(char const*) » :
+[1.195s] SerialPort.cpp:(.text+0x0) : définitions multiples de « scom::SerialPort::SerialPort(char const*) »; CMakeFiles/monthlery.dir/src/monthlery.cpp.o:monthlery.cpp:(.text+0x844) : défini pour la première fois ici
+[1.195s] /usr/bin/ld : CMakeFiles/monthlery.dir/src/serial/SerialPort.cpp.o : dans la fonction « scom::SerialPort::open_serial() » :
+[1.195s] SerialPort.cpp:(.text+0x36) : définitions multiples de « scom::SerialPort::open_serial() »; CMakeFiles/monthlery.dir/src/monthlery.cpp.o:monthlery.cpp:(.text+0x87a) : défini pour la première fois ici
+[1.195s] /usr/bin/ld : CMakeFiles/monthlery.dir/src/serial/SerialPort.cpp.o : dans la fonction « scom::SerialPort::set_config() » :
+[1.195s] SerialPort.cpp:(.text+0xb8) : définitions multiples de « scom::SerialPort::set_config() »; CMakeFiles/monthlery.dir/src/monthlery.cpp.o:monthlery.cpp:(.text+0x8fc) : défini pour la première fois ici
+[1.195s] /usr/bin/ld : CMakeFiles/monthlery.dir/src/serial/SerialPort.cpp.o : dans la fonction « scom::SerialPort::get_config() » :
+[1.195s] SerialPort.cpp:(.text+0x130) : définitions multiples de « scom::SerialPort::get_config() »; CMakeFiles/monthlery.dir/src/monthlery.cpp.o:monthlery.cpp:(.text+0x974) : défini pour la première fois ici
+[1.195s] /usr/bin/ld : CMakeFiles/monthlery.dir/src/serial/SerialPort.cpp.o : dans la fonction « scom::SerialPort::set_input_speed(unsigned int) » :
+[1.195s] SerialPort.cpp:(.text+0x1a6) : définitions multiples de « scom::SerialPort::set_input_speed(unsigned int) »; CMakeFiles/monthlery.dir/src/monthlery.cpp.o:monthlery.cpp:(.text+0x9ea) : défini pour la première fois ici
+[1.195s] /usr/bin/ld : CMakeFiles/monthlery.dir/src/serial/SerialPort.cpp.o : dans la fonction « scom::SerialPort::set_output_speed(unsigned int) » :
+[1.196s] SerialPort.cpp:(.text+0x1d2) : définitions multiples de « scom::SerialPort::set_output_speed(unsigned int) »; CMakeFiles/monthlery.dir/src/monthlery.cpp.o:monthlery.cpp:(.text+0xa16) : défini pour la première fois ici
+[1.196s] /usr/bin/ld : CMakeFiles/monthlery.dir/src/serial/SerialPort.cpp.o : dans la fonction « scom::SerialPort::define_blocking_mode(scom::BlockingModes, std::initializer_list<int>) » :
+[1.196s] SerialPort.cpp:(.text+0x1fe) : définitions multiples de « scom::SerialPort::define_blocking_mode(scom::BlockingModes, std::initializer_list<int>) »; CMakeFiles/monthlery.dir/src/monthlery.cpp.o:monthlery.cpp:(.text+0xa42) : défini pour la première fois ici
+[1.196s] /usr/bin/ld : CMakeFiles/monthlery.dir/src/serial/SerialPort.cpp.o : dans la fonction « scom::SerialPort::configure_control_modes(unsigned int, std::initializer_list<bool>) » :
+[1.196s] SerialPort.cpp:(.text+0x364) : définitions multiples de « scom::SerialPort::configure_control_modes(unsigned int, std::initializer_list<bool>) »; CMakeFiles/monthlery.dir/src/monthlery.cpp.o:monthlery.cpp:(.text+0xba8) : défini pour la première fois ici
+[1.196s] /usr/bin/ld : CMakeFiles/monthlery.dir/src/serial/SerialPort.cpp.o : dans la fonction « scom::SerialPort::configure_local_modes(std::initializer_list<bool>) » :
+[1.196s] SerialPort.cpp:(.text+0x4a0) : définitions multiples de « scom::SerialPort::configure_local_modes(std::initializer_list<bool>) »; CMakeFiles/monthlery.dir/src/monthlery.cpp.o:monthlery.cpp:(.text+0xce4) : défini pour la première fois ici
+[1.196s] /usr/bin/ld : CMakeFiles/monthlery.dir/src/serial/SerialPort.cpp.o : dans la fonction « scom::SerialPort::configure_input_modes(std::initializer_list<bool>) » :
+[1.196s] SerialPort.cpp:(.text+0x5be) : définitions multiples de « scom::SerialPort::configure_input_modes(std::initializer_list<bool>) »; CMakeFiles/monthlery.dir/src/monthlery.cpp.o:monthlery.cpp:(.text+0xe02) : défini pour la première fois ici
+[1.196s] /usr/bin/ld : CMakeFiles/monthlery.dir/src/serial/SerialPort.cpp.o : dans la fonction « scom::SerialPort::configure_output_modes(std::initializer_list<bool>) » :
+[1.196s] SerialPort.cpp:(.text+0x6dc) : définitions multiples de « scom::SerialPort::configure_output_modes(std::initializer_list<bool>) »; CMakeFiles/monthlery.dir/src/monthlery.cpp.o:monthlery.cpp:(.text+0xf20) : défini pour la première fois ici
+[1.196s] /usr/bin/ld : CMakeFiles/monthlery.dir/src/serial/SerialPort.cpp.o : dans la fonction « scom::SerialPort::write_byte(unsigned char) » :
+[1.196s] SerialPort.cpp:(.text+0x7fa) : définitions multiples de « scom::SerialPort::write_byte(unsigned char) »; CMakeFiles/monthlery.dir/src/monthlery.cpp.o:monthlery.cpp:(.text+0x103e) : défini pour la première fois ici
+[1.197s] /usr/bin/ld : CMakeFiles/monthlery.dir/src/serial/SerialPort.cpp.o : dans la fonction « scom::SerialPort::write_word(unsigned char, int) » :
+[1.197s] SerialPort.cpp:(.text+0x82a) : définitions multiples de « scom::SerialPort::write_word(unsigned char, int) »; CMakeFiles/monthlery.dir/src/monthlery.cpp.o:monthlery.cpp:(.text+0x106e) : défini pour la première fois ici
+[1.197s] /usr/bin/ld : CMakeFiles/monthlery.dir/src/serial/SerialPort.cpp.o : dans la fonction « scom::SerialPort::read_byte(unsigned char*) » :
+[1.197s] SerialPort.cpp:(.text+0x85e) : définitions multiples de « scom::SerialPort::read_byte(unsigned char*) »; CMakeFiles/monthlery.dir/src/monthlery.cpp.o:monthlery.cpp:(.text+0x10a2) : défini pour la première fois ici
+[1.197s] /usr/bin/ld : CMakeFiles/monthlery.dir/src/serial/SerialPort.cpp.o : dans la fonction « scom::SerialPort::read_word(unsigned char*, int) » :
+[1.197s] SerialPort.cpp:(.text+0x88e) : définitions multiples de « scom::SerialPort::read_word(unsigned char*, int) »; CMakeFiles/monthlery.dir/src/monthlery.cpp.o:monthlery.cpp:(.text+0x10d2) : défini pour la première fois ici
+[1.197s] /usr/bin/ld : CMakeFiles/monthlery.dir/src/serial/SerialPort.cpp.o : dans la fonction « scom::SerialPort::close_port() » :
+[1.197s] SerialPort.cpp:(.text+0x8c2) : définitions multiples de « scom::SerialPort::close_port() »; CMakeFiles/monthlery.dir/src/monthlery.cpp.o:monthlery.cpp:(.text+0x1106) : défini pour la première fois ici
+[1.197s] /usr/bin/ld : CMakeFiles/monthlery.dir/src/serial/SerialPort.cpp.o : dans la fonction « scom::SerialPort::set_exclusive_access() » :
+[1.197s] SerialPort.cpp:(.text+0x8e2) : définitions multiples de « scom::SerialPort::set_exclusive_access() »; CMakeFiles/monthlery.dir/src/monthlery.cpp.o:monthlery.cpp:(.text+0x1126) : défini pour la première fois ici
+[1.197s] /usr/bin/ld : CMakeFiles/monthlery.dir/src/serial/SerialPort.cpp.o : dans la fonction « scom::SerialPort::set_default_config() » :
+[1.197s] SerialPort.cpp:(.text+0xa80) : définitions multiples de « scom::SerialPort::set_default_config() »; CMakeFiles/monthlery.dir/src/monthlery.cpp.o:monthlery.cpp:(.text+0x12c4) : défini pour la première fois ici
+[1.197s] collect2: error: ld returned 1 exit status
+[1.197s] make[2]: *** [CMakeFiles/monthlery.dir/build.make:146 : monthlery] Erreur 1
+[1.197s] make[1]: *** [CMakeFiles/Makefile2:78 : CMakeFiles/monthlery.dir/all] Erreur 2
+[1.197s] make: *** [Makefile:141 : all] Erreur 2
+[1.199s] Invoked command in '/home/julien/Documents/Intech/Monthléry/ros_workspace/build/monthlery' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/julien/Documents/Intech/Monthléry/ros_workspace/build/monthlery -- -j12 -l12

@@ -1,0 +1,8 @@
+source;share/monthlery/hook/cmake_prefix_path.ps1
+source;share/monthlery/hook/cmake_prefix_path.dsv
+source;share/monthlery/hook/cmake_prefix_path.sh
+source;share/monthlery/local_setup.bash
+source;share/monthlery/local_setup.dsv
+source;share/monthlery/local_setup.ps1
+source;share/monthlery/local_setup.sh
+source;share/monthlery/local_setup.zsh
