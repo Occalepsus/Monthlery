@@ -1,3 +1,0 @@
-Loading the stored PID parameters into remote... [32m[1mSuccess[0m
-[shell] -- *** Unknown syntax: 
-[shell] -- 
